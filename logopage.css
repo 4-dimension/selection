@@ -1,0 +1,53 @@
+img{
+	
+	width: 200px;
+	height: 200px;
+	
+}
+
+div.mainpannel{
+	
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	
+	
+}
+#home{
+	
+	position: absolute;
+	border: 5px solid yellow;
+	left: 100px;
+	
+}
+
+#building{
+	
+	position: absolute;
+	border: 5px solid blue;
+	left: 400px;
+}
+#factory{
+	position: absolute;
+	border: 5px solid green;
+	left: 700px;
+	
+}
+#green{
+	
+	position: absolute;
+	border: 5px solid red;
+	left: 1000px;
+}
+.zoom {
+    padding: 50px;
+    background-color: none;
+    transition: transform .2s; /* Animation */
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
